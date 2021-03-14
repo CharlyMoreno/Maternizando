@@ -2,56 +2,159 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  
-    <title>Maternizando</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <title>Maternizando</title>
 
-    <!-- CSS Files -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <!-- CSS Files -->
+  <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    
-    <!-- NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFDFD8;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Maternizando</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white navegacion">
+      <div class="container">
+          <img class="logo" src="img/Logo.png" alt="Maternizando">
+          <button class="navbar-toggler bg-white" data-toggle="collapse" data-target="#miLista">
               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown link
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="miLista">
+              <ul class="navbar-nav">
+                  <li class="nav-item mb-3">
+                      <a class="nav-link text-black" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item mb-3">
+                      <a class="nav-link text-black" href="#row-cursos">Servicios</a>
+                  </li>
+                  <li class="nav-item mb-3">
+                      <a class="nav-link text-black" href="#row-nosotros">Nosotros</a>
+                  </li>
+                  <li class="nav-item mb-3">
+                      <a class="nav-link text-black" href="#row-servicios">Cursos</a>
+                  </li>
+                  <li class="nav-item mb-3">
+                      <a class="nav-link text-black" href="#row-contacto">Contacto</a>
+                  </li>
               </ul>
-            </div>
           </div>
+      </div>
     </nav>
 
-    <!-- JS Files -->
-    <script src="js/bootstrap.min.js"></script> 
+    <div id="containerDescripcion">
+        <div class="container">
+          <div class="title font-weight-bold">
+            <p>Maternizando OPM</p>
+            <p class="tituloSecundario">Acompañar y apoyar tu embarazo y lactancia es nuestro objetivo</p>
+            <button class="btn mt-3">Contactanos</button>
+        </div>        
+        </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container text-center py-3">
+
+        <div class="section-title">
+          <h2>Servicios</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus impedit debitis, veniam dolor quod rerum.</p>
+        </div>
+
+        <div class="row py-3">
+          <div class="col-md-6">
+            <div class="icon-box">
+              <i class="bx bxs-baby-carriage"></i>
+              <h4><a href="#">Preparación para la Maternidad</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bx bx-task"></i>
+              <h4><a href="#">Talleres y Charlas</a></h4>
+              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="icon-box">
+              <i class="bx bx-calendar-heart"></i>
+              <h4><a href="#">Asesoría en lactancia</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="icon-box">
+              <i class="bx bx-home-heart"></i>
+              <h4><a href="#">Acompañamiento</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Nuestro Equipo ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title text-center py-3">
+          <h2>Nuestro Equipo</h2>
+          <p>Sit sint consectetur velit quos quisquam cupiditate nemo qui</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-stretch">
+            <div class="member">
+              <img class="imgMiembros" src="img/juli.png" alt="">
+              <h4>Julieta Jorquera</h4>
+              <span>Licenciada en Obstetricia MP:960</span>
+              <p>
+                Licenciada en Obstetricia en Universidad Aconcagua Mendoza. Diplomada en Lactancia Materna y Puericultura. Matricula 965.
+              </p>
+              <div class="social">
+                <a href="https://www.facebook.com/juli.jorquera"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/julijorquera/"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-stretch">
+            <div class="member">
+              <img class="imgMiembros" src="img/vicky.png" alt="">
+              <h4>María Victoria Montaña</h4>
+              <span>Licenciada en Obstetricia MP:965</span>
+              <p>
+                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+              </p>
+              <div class="social">
+                <a href=""><i class="bx bxl-facebook"></i></a>
+                <a href=""><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Equipo Section -->
+  
+    <div class="row" id="row-contact"></div>
+  
+    <div class="row" id="row-copyright"></div>
+  </main>
+
+
+  <!-- JS Files -->
+  <script src="js/bootstrap/bootstrap.js"></script> 
 </body>
 
 </html>

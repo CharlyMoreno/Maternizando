@@ -1,0 +1,163 @@
+.container {
+    max-width: 1100px;
+}
+#containerDescripcion {
+    background-image: linear-gradient(
+        rgba(246, 193, 215, 0.5), 
+        rgba(246, 193, 215, 0.5)
+      ),url('../img/gineco-obstetricia.png');
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+.title-color{
+    color: #5080E5;
+}
+
+.title {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tituloSecundario{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn {
+    background-color: #943374;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .services .icon-box i {
+    font-size: 30px;
+    color: white;
+    margin: 0 auto;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #943374;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .services .icon-box h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .icon-box h4 a {
+    color: #384046;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .services .icon-box p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+  
+  .services .icon-box:hover {
+    box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
+  }
+  
+  .services .icon-box:hover h4 a {
+    color: #943374;
+    cursor: none;
+    pointer-events: none;
+  }
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    background: #fff;
+  }
+  
+  .team .member img {
+    max-width: 35%;
+    border-radius: 50%;
+    margin: 0 0 30px 0;
+  }
+  
+  .team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+  }
+  
+  .team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
+  
+  .team .member p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaaaaa;
+  }
+  
+  .team .member .social {
+    margin-top: 15px;
+  }
+  
+  .team .member .social a {
+    color: #919191;
+    transition: 0.3s;
+  }
+  
+  .team .member .social a:hover {
+    color: #943374;
+  }
+  
+  .team .member .social i {
+    font-size: 25px;
+  }
+
+  
+
